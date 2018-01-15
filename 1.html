@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The 1</title>
+
+    <style>
+        .growText {
+            animation: example1 2s infinite ease-in-out;
+            text-align: center;
+        }
+
+        .growText1 {
+            transform: rotate(20deg);
+            text-align: center;
+        }
+
+        @keyframes example1 {
+            from {
+                transform: scale(1.2);
+            }
+            50% {
+                transform: scale(0.9);
+            }
+            to {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="growText1">
+        Lorem ipsum
+    </div>
+
+</body>
+
+</html>
